@@ -1,5 +1,5 @@
 {
-  "name": "thesis-microservices-app-frontend",
+  "name": "thesis-frontend",
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",

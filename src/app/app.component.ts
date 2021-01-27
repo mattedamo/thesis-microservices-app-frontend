@@ -7,9 +7,7 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title: string;
-
   constructor(){
-    this.title = 'thesis-microservices-app-frontend';
+    this.title = "Thesis app frontend"
   }
-  
 }
