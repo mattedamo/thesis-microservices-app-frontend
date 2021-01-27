@@ -7,5 +7,5 @@ RUN npm run build --prod
 
 # Stage 2
 FROM nginx:1.17.1
-COPY ./nginx.conf /etc/nginx/conf.d/default.conf 
+#COPY ./nginx.conf /etc/nginx/conf.d/default.conf 
 COPY --from=build /frontend/dist/thesis-frontend /usr/share/nginx/html/
