@@ -9,7 +9,7 @@ export class UserService {
   private usersUrl: string;
 
   constructor(private http: HttpClient) {
-    this.usersUrl = 'http//kube-worker:8080/API/users';
+    this.usersUrl = 'http//kube-worker:30007/API/users';
   }
 
   public findAll(): Observable<User[]> {
